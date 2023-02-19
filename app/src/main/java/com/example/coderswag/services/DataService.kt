@@ -1,14 +1,14 @@
 package com.example.coderswag.services
 
-import com.example.coderswag.model.Catagory
+import com.example.coderswag.model.Category
 import com.example.coderswag.model.Product
 
 object DataService {
     val catagories = listOf(
-            Catagory("SHIRTS","shirtimage"),
-            Catagory("HOODIES","hoodieimage"),
-            Catagory("HATS","hatimage"),
-            Catagory("DIGITAL", "digitalgoodsimage")
+            Category("SHIRTS","shirtimage"),
+            Category("HOODIES","hoodieimage"),
+            Category("HATS","hatimage"),
+            Category("DIGITAL", "digitalgoodsimage")
     )
 
     val hats = listOf(
